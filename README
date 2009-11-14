@@ -1,3 +1,48 @@
 ibu README
 
+todo: prepraviti u formalnu specifikaciju,
+
+  ""baza"", store aka. repository, za adresar + sve ostalo sto ima veze sa studentima i 
+      profesorima beogradskog univerziteta (studentski servisi???)
+  klijentske aplikacije
+    standardne web aplikacije (static web + ajax)
+    (aca, Matija).
+  mobilne web aplikacije (nokia, opera, 
+    netfront http://gs.statcounter.com/#mobile_browser-RS-monthly-200809-200910)
+    milestone 1: nacrtana skica web interfejsa prilagodjena telefonskom ekranu.
+    2009-10-24: no update.
+  mapa 
+    gde se nalaze sve zgrade po gradu
+    gde se nalazi (shematski i na kom spratu koja soba, i gde su wc-i, citaonice itsl.
+    obezbediti jedinsten id za lociranje svega (radi integracije u imenik.
+    milestone 1: mape zgrade tehnickih fakulteta u jpg skeniranom i u svg formatu, grubo precizne, html browser.
+      dodati aparate za sokove, kafu
+      wc-ovi
+      oglasne table
+      brojevi soba
+      zika trovac i ostale special areas, atrijum
+      ETF,arhitektura,gradjevina, paviljon, rc ,institut za fiziku (kabineti za lab) , masinac (amfiteatri za kol), tehnoloski (amfiteatri za kol). 
+      studentska sluzba, dekanati, kabineti.
+    2009-10-24: aca, dopunjavao na papiru brucka, super! ostali: no update.
+  servisi:
+    address book 
+      milestone 1: soap interfejs za adresar (kaptoxic)
+          neka sample polustaticka web strana koja demonstrira to (kaptoxic).
+      features:
+        ime i prezime
+        email
+        MSN/GTALK/SKYPE/YAHOO...IM
+        telefon (opcija private za administraciju i hitno emergency itsl. / public ko hoce)
+        linkovi ka google.com/profile,facebook, twitter,...
+        (koristiti njihove mehanizme za kontrolisanje privatnosti kontakt informacija, gde to ima smisla)
+    news
+      TBD .. nesto sto lici na twitter :D (mozemo da integrisemo twitter feed)
+    maps
+      TBD kao servis .. vidi gore.
+      svg sluzimo direktno u browser.
+      pretrazivanje indeksiranje itsl. (vrlo jednostavno i moze da se napise u 2k linija php-a u najgorem slucaju).
+     
 TODO: write readme.
+
+
+
